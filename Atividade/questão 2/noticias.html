@@ -1,83 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticias</title>
+    <title>Notícias</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        h1{
-            color: blue;
-text-align: center;
-
-        }
-        h2{
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
             text-align: center;
-            color: blue;
+            color: #333;
         }
-        h3{
+        h1, h2, h3 {
+            color: #0056b3;
+        }
+        p {
+            max-width: 800px;
+            margin: 10px auto;
+            line-height: 1.6;
+        }
+        .noticia {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 120px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
             text-align: center;
-            color: blue;
+            background: white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         }
-        p{
-            text-align: center;
-            color: black;
+        th {
+            background: #e9ecef;
+            font-weight: bold;
         }
-       
-        body{
-            background-color:lightgray
-        }
-
-       img{
-        
-        width: 100px; margin: 10px auto; display: block;
-        
-       }
-
-        div{
-            border: 2px solid; margin: 10px auto; width: 40%; 
-            
-        }
-    
-        div{
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); margin: 10px auto; width: 65%;
-            
-        }
-        table{
-            width: 100%; margin: 10x auto; border-spacing: 10px;
-        
-
-        }
-        table img{width: 20;}
-        td{padding: 15px; border-radius: 5px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); text-align: center ; }
-
-      
     </style>
 </head>
 <body>
-    <h1>Últimas noticias</h1>
-    <div class = "ntc">
-        <img src="img/noticias.jpg" alt="news">
-        <h3>Título da noticia 1</h3>
-        <p>Noticia 1</p>
-    </div>
-    <div class = "ntc2">
-        <img src="img/noticias.jpg"class = "img" alt="news">
-        <h3>Título da noticia 2</h3>
-        <p>Noticia 2</p>
-    </div>
-    <h3>Pricipais manchetes</h3>
-  <table>
-    <tr>
-        <td>
-            <img src="img/noticias.jpg" alt="news">
-            manchete 1
-        </td>
+    <h1>Últimas Notícias</h1>
     
-    <td>
-        <img src="img/noticias.jpg" alt="news">
-      manchete 2
-    </td>
-    </tr>
+    <div class="noticia">
+        <img src="img/noticias.jpg" alt="Notícia 1">
+        <h3>Título da Notícia 1</h3>
+        <p>Descrição breve da notícia 1.</p>
+    </div>
+    
+    <div class="noticia">
+        <img src="img/noticias.jpg" alt="Notícia 2">
+        <h3>Título da Notícia 2</h3>
+        <p>Descrição breve da notícia 2.</p>
+    </div>
+    
+    <h2>Principais Manchetes</h2>
+    <table>
+        <tr>
+            <td>
+                <img src="img/noticias.jpg" alt="Manchete 1">
+                <p>Manchete 1</p>
+            </td>
+            <td>
+                <img src="img/noticias.jpg" alt="Manchete 2">
+                <p>Manchete 2</p>
+            </td>
+        </tr>
     </table>
 </body>
 </html>
