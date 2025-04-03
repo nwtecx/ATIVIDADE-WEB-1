@@ -1,0 +1,54 @@
+a {
+    color: gray;
+    display: block;
+    width: max-content;
+    margin: auto;
+    text-decoration: none; /* Evita sublinhado padrão */
+}
+
+.botao {
+    display: inline-block;
+    padding: 5px 10px; /* Ajuste para um melhor espaçamento */
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Suaviza a transição */
+}
+
+.botao:hover {
+    background-color: gray;
+}
+
+.ptc, .ptc2 {
+    background-color: lightblue;
+    width: 100%;
+    padding: 20px;
+}
+
+.ptc {
+    height: 110px;
+}
+
+.ptc2 {
+    height: 400px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: justify;
+    margin: 10px 0; /* Evita colagem com outros elementos */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tr2 {
+    background-color: darkgrey;
+}
